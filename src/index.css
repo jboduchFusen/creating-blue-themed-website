@@ -5,27 +5,27 @@
 
 @layer base {
   :root {
-    /* Light Blue Color Palette */
-    --background: 210 100% 97%;
-    --foreground: 220 25% 15%;
+    /* Light Yellow Color Palette */
+    --background: 48 100% 96%;
+    --foreground: 40 25% 15%;
     
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 15%;
+    --card-foreground: 40 25% 15%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 15%;
+    --popover-foreground: 40 25% 15%;
     
-    --primary: 210 85% 58%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 45 93% 58%;
+    --primary-foreground: 40 25% 15%;
     
-    --secondary: 210 40% 95%;
-    --secondary-foreground: 220 25% 15%;
+    --secondary: 48 40% 95%;
+    --secondary-foreground: 40 25% 15%;
     
-    --muted: 210 40% 95%;
-    --muted-foreground: 220 16% 47%;
+    --muted: 48 40% 95%;
+    --muted-foreground: 40 16% 47%;
     
-    --accent: 200 80% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 42 87% 55%;
+    --accent-foreground: 40 25% 15%;
     
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -33,16 +33,16 @@
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
     
-    --border: 210 32% 90%;
-    --input: 210 32% 90%;
-    --ring: 210 85% 58%;
+    --border: 48 32% 90%;
+    --input: 48 32% 90%;
+    --ring: 45 93% 58%;
     
     --radius: 0.5rem;
     
-    /* Blue Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(210 85% 58%) 0%, hsl(200 80% 55%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(210 85% 58%) 0%, hsl(200 80% 55%) 50%, hsl(190 75% 52%) 100%);
-    --gradient-card: linear-gradient(to bottom, hsl(0 0% 100%) 0%, hsl(210 100% 99%) 100%);
+    /* Yellow Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(45 93% 58%) 0%, hsl(42 87% 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(45 93% 58%) 0%, hsl(42 87% 55%) 50%, hsl(38 85% 52%) 100%);
+    --gradient-card: linear-gradient(to bottom, hsl(0 0% 100%) 0%, hsl(48 100% 99%) 100%);
   }
 
   .dark {
